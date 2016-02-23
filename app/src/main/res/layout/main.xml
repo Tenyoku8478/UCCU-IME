@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="64dp">
+    <!-- Bottom View Start-->
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_height="64dp">
+        <!--What you want to show-->
+        <idv.tenyoku.uccuime.view.AutoRepeatImageButton
+            android:id="@+id/backspace"
+            android:src="@drawable/ime_backspace"
+            android:background="@drawable/ime_backspace_button"
+            android:padding="8pt"
+            android:layout_gravity="right"
+            android:scaleType="fitXY"
+            android:layout_width="64dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/enter"
+            android:src="@drawable/ime_enter"
+            android:background="@drawable/ime_enter_button"
+            android:padding="8pt"
+            android:layout_gravity="right"
+            android:scaleType="fitXY"
+            android:layout_width="64dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <!-- Bottom View End-->
+
+    <!-- Surface View Start -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <idv.tenyoku.uccuime.view.VLEmojiPultrusionView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/VLEmoji"
+            app:frontText="(σﾟ∀ﾟ"
+            app:middleText=")σﾟ∀ﾟ"
+            app:rearText=")σ"/>
+    </LinearLayout>
+    <!-- Surface View Start -->
+</com.daimajia.swipe.SwipeLayout>

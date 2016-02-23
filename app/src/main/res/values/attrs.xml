@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VLEmojiPultrusionView">
+        <attr name="frontText" format="string"/>
+        <attr name="middleText" format="string"/>
+        <attr name="rearText" format="string"/>
+    </declare-styleable>
+</resources>

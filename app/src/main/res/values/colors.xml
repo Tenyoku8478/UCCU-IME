@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_normal">#ddd</color>
+    <color name="button_pressed">#eee</color>
+    <color name="enter_button_normal">#1ece6d</color>
+    <color name="enter_button_pressed">#36d67b</color>
+    <color name="backspace_button_normal">#e94b35</color>
+    <color name="backspace_button_pressed">#ec604e</color>
+</resources>
